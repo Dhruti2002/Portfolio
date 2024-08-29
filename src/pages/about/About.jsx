@@ -6,6 +6,7 @@ import CV from "../../assets/Dhruti's Resume.pdf";
 import Skills from '../../components/Skills';
 import {resume} from '../../data'; 
 import "./about.css";
+import ResumeItem from '../../components/ResumeItem';
 
 const About = () => {
     return (
@@ -24,7 +25,7 @@ const About = () => {
                         </ul>
 
                         <a href={CV} download='' className="button">
-                            Download CV
+                            Download Cv
                             <span className="button__icon">
                                 <FaDownload />
                             </span>
@@ -48,17 +49,27 @@ const About = () => {
             </section>
 
             <div className="separator"></div>
-            <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
 
-            <div className="resume__container grid">
-                <div className="resume__data">
-                    {resume.map((val) => {
+            <section className='resume'>
+                <h3 className="section__subtitle subtitle__center">Experience and Education</h3>
+
+                <div className="resume__container grid">
+                    <div className="resume__data">
+                        {resume.map((val) => {
                         if (val.category === 'experience') {
-                            return  
+                        return  <ResumeItem key={val.id} {...val} />;
                         }
-                    })}
+                        })}
+                    </div>  
+                    <div className="resume__data">
+                        {resume.map((val) => {
+                        if (val.category === 'education') {
+                        return  <ResumeItem key={val.id} {...val} />;
+                        }
+                        })}
+                    </div>
                 </div>
-            </div>
+            </section>
         </main>
     )
 }

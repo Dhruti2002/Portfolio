@@ -55,3 +55,28 @@
     left: -83%;
     transform: rotate(-15deg);
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        height: auto;
+    }
+
+    .home__img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .home__title {
+        font-size: var(--h2-font-size);
+        padding-left: 20px;
+    }
+
+    .home__description {
+        font-size: var(--small-font-size);
+        line-height: 1.8;
+        margin-block: 10px 20px;
+    }
+}

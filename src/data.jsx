@@ -133,54 +133,36 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: 'Ongoing',
+    title: 'Android Application Development Projects <span> Developer </span>',
+    desc: 'Working on multiple Android applications as part of academic projects, including women saftey application. Gained experience in UI/UX design, data handling, and integrating various APIs.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'Learning Stage',
+    title: 'Web Development Projects <span> Full Stack Developer </span>',
+    desc: 'Developed several small-scale web applications using React and Node.js, focusing on building responsive user interfaces and efficient back-end systems.',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: 'Beginner',
+    title: 'Machine Learning Practice',
+    desc: 'Engaged in self-study and hands-on practice with basic machine learning algorithms, focusing on understanding concepts like Decision Trees and  Bayes\' Theorem.',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  },
-
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2022 - present',
+    title: 'B.Tech &nbspCSE <br />ITM(SLS) Baroda University ',
+    desc: 'Currently pursuing B.Tech in Computer Science and Engineering, focusing on building a strong foundation in software development, data structures, algorithms, and system design. Actively involved in projects related to Android application development and web development, with a keen interest in enhancing skills in full-stack development',
   },
 ];
 
@@ -230,8 +212,32 @@ export const skills = [
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '85',
   },
+
+  {
+    id: 9,
+    title: 'Java',
+    percentage: '80',
+  },
+
+  {
+    id: 10,
+    title: 'Python',
+    percentage: '75',
+  },
+
+  {
+    id: 11,
+    title: 'XML',
+    percentage: '55',
+  },
+
+  {
+    id: 12,
+    title: 'MySQL',
+    percentage: '90',
+  },  
 ];
 
 export const portfolio = [

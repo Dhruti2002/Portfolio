@@ -10,16 +10,16 @@ import Contact from './pages/contact/Contact'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Navbar />
       <Routes>
-        <Route index element={<Home/>} />
-        <Route path='about' element={<About />} />
-        <Route path='projects' element={<Projects />} />
-        <Route path='contact' element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
