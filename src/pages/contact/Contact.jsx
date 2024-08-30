@@ -3,7 +3,7 @@ import React from 'react'
 import {
     FaEnvelopeOpen,
     FaGithub,
-    FaLinkedin
+    FaLinkedin,
 } from 'react-icons/fa';
 
 import {FiSend} from 'react-icons/fi';
@@ -32,7 +32,7 @@ const Contact = () => {
 
                             <div>
                                 <span className="info__title">Mail me</span>
-                                <span className="info__desc">dhrutipatel1120@gmail.com</span>
+                                <h4 className="info__desc">dhrutipatel1120@gmail.com</h4>
                             </div>
                         </div>
                     </div>
@@ -47,6 +47,48 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
+
+                <form className="contact__form">
+                    <div className="form__input-group">
+                        <div className="form__input-div">
+                            <input 
+                                type="text"   
+                                placeholder='Your Name' 
+                                className="form__control" 
+                            />
+                        </div>
+
+                        <div className="form__input-div">
+                            <input 
+                                type="email"   
+                                placeholder='Your Email' 
+                                className="form__control" 
+                            />
+                        </div>
+
+                        <div className="form__input-div">
+                            <input 
+                                type="text"   
+                                placeholder='Your Subject' 
+                                className="form__control" 
+                            />
+                        </div>
+                    </div>
+
+                    <div className="form__input-div">
+                        <textarea 
+                            placeholder='Your Message'
+                            className="form__control textarea">                
+                        </textarea>
+                    </div>
+
+                    <button className="button">
+                        Send Message 
+                        <span className="button__icon contact__button-icon">
+                            <FiSend />
+                        </span> 
+                    </button>
+                </form>
             </div>
         </section>
     )

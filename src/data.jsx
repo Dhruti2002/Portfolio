@@ -244,27 +244,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Quiz',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Audience : ',
+        desc: 'Students',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html, CSS, JavaScript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://dhruti2002.github.io/Quiz/',
       },
     ],
   },
@@ -272,27 +272,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Student Assignment Submission',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Student Assignment Submission System',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Audience : ',
+        desc: 'Students',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'PHP, Laravel, MySQL, HTML, CSS, JS, Bootstrap',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Dhruti2002/laravel-project',
       },
     ],
   },
@@ -300,27 +300,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Product Inventory System',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Businesses',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'JQuery, Bootstap',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://dhruti2002.github.io/Product_inventory/',
       },
     ],
   },
@@ -328,54 +328,54 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Python Project Color Detection',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Python',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Students',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Python',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Dhruti2002/python-project-color-detection',
       },
     ],
   },
 
-  {
-    id: 5,
-    img: Work5,
-    title: 'Landing Page',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   img: Work5,
+  //   title: 'Landing Page',
+  //   details: [
+  //     {
+  //       title: 'Project : ',
+  //       desc: 'Website',
+  //     },
+  //     {
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       title: 'Language : ',
+  //       desc: 'React JS, Node JS',
+  //     },
+  //     {
+  //       title: 'Preview : ',
+  //       desc: 'www.dribble.com',
+  //     },
+  //   ],
+  // },
 
   {
     id: 6,
