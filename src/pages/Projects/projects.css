@@ -1,6 +1,7 @@
 .portfolio__container {
     grid-template-columns: repeat(3, 1fr);
 }
+
 .portfolio__item {
     position: relative;
     border-radius: 10px;
@@ -9,7 +10,7 @@
 }
 
 .portfolio__img {
-    height: 250px;
+    height: 210px;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
