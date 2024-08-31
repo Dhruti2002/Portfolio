@@ -1,5 +1,5 @@
 .nav__menu {
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
     position: fixed;
     inset-block: 0;
     left: -100%;
@@ -7,7 +7,7 @@
     width: 100%;
     padding: 60px 30px;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .show-menu {
@@ -20,6 +20,10 @@
     column-gap: 24px;
     border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
+}
+
+.dark-theme .nav__link {
+    border-color: hsl(0, 0%, 20%);
 }
 
 .nav__icon,
