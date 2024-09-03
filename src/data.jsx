@@ -309,7 +309,7 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Audience : ',
         desc: 'Businesses',
       },
       {
@@ -337,7 +337,7 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Audience : ',
         desc: 'Students',
       },
       {
@@ -353,57 +353,57 @@ export const portfolio = [
     ],
   },
 
+  {
+    id: 5,
+    img: Work5,
+    title: 'Password Generator',
+    details: [
+      {
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        title: 'Audience : ',
+        desc: 'Non-Tech user',
+      },
+      {
+        title: 'Language : ',
+        desc: 'Html, CSS, Javascript',
+      },
+      {
+        title: 'Preview : ',
+        desc: 'https://dhruti2002.github.io/Password_Generator/',
+      },
+    ],
+  },
+
   // {
-  //   id: 5,
-  //   img: Work5,
-  //   title: 'Landing Page',
+  //   id: 6,
+  //   img: Work6,
+  //   title: 'Photo Editing',
   //   details: [
   //     {
+  //       icon: <FiFileText />,
   //       title: 'Project : ',
-  //       desc: 'Website',
+  //       desc: 'Photo',
   //     },
   //     {
+  //       icon: <FiUser />,
   //       title: 'Client : ',
   //       desc: 'Dribble',
   //     },
   //     {
+  //       icon: <FaCode />,
   //       title: 'Language : ',
-  //       desc: 'React JS, Node JS',
+  //       desc: 'Adobe Photoshop',
   //     },
   //     {
+  //       icon: <FiExternalLink />,
   //       title: 'Preview : ',
-  //       desc: 'www.dribble.com',
+  //       desc: 'www.dibble.com',
   //     },
   //   ],
   // },
-
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
-      },
-    ],
-  },
 ];
 
 export const themes = [
